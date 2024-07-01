@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body>
+  <div class="container">
+    <header class="notifications__header">
+      <h1 class="notificacions__title">Notifications <span class="notificacions__counter">3</span></h1>
+      <button class="notificacions__btn">Mark all as read</button>
+    </header>
+    <main class="notifications">
+        <article class="notification unread">
+            <div class="notifi__cont">
+                <div class="notifi__text">
+                    <img class="notifi__avatar" src="./assets/images/avatar-mark-webber.webp" alt="">
+                    <div class="notifi__t">
+                        <p class="notifi__paragraph">
+                            <span class="notifi__name">Mark Webber</span>
+                            reacted to your recent post
+                            <span class="post">My first tournament today!</span>
+                            <span class="notifi__reddot"></span>
+                        </p>
+                        <div class="notifi__time">1m ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notifi__data hidden"></div>
+        </article>
+        <article class="notification unread">
+            <div class="notifi__cont">
+                <div class="notifi__text">
+                    <img class="notifi__avatar" src="./assets/images/avatar-angela-gray.webp" alt="">
+                    <div class="notifi__t">
+                        <p class="notifi__paragraph">
+                            <span class="notifi__name">Angela Gray</span>
+                            followed you
+                            <span class="group"></span>
+                            <span class="notifi__reddot"></span>
+                        </p>
+                        <div class="notifi__time">5m ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notifi__data hidden"></div>
+        </article>
+        <article class="notification unread">
+            <div class="notifi__cont">
+                <div class="notifi__text">
+                    <img class="notifi__avatar" src="./assets/images/avatar-jacob-thompson.webp" alt="">
+                    <div class="notifi__t">
+                        <p class="notifi__paragraph">
+                            <span class="notifi__name">Jacob Thompson</span>
+                            has joined your group
+                            <span class="group">Chess Club</span>
+                            <span class="notifi__reddot"></span>
+                        </p>
+                        <div class="notifi__time">1 days ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notifi__data hidden"></div>
+        </article>
+        <article class="notification">
+                <div class="notifi__cont">
+                    <div class="notifi__text">
+                        <img class="notifi__avatar" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+                        <div class="notifi__t">
+                            <p class="notifi__paragraph">
+                                <span class="notifi__name"> Rizky Hasanuddin</span>
+                                sent you a private message
+                                <span class="notifi__title"></span>
+                                <span class="notifi__reddot"></span>
+                            </p>
+                            <div class="notifi__time">5 days ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notifi__data">
+                    Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                    I'm already having lots of fun and improving my game.
+                </div>
+        </article>
+        <article class="notification">
+            <div class="notifi__cont">
+                <div class="notifi__text">
+                    <img class="notifi__avatar" src="./assets/images/avatar-kimberly-smith.webp" alt="">
+                    <div class="notifi__t">
+                        <p class="notifi__paragraph">
+                            <span class="notifi__name">Kimberly Smith</span>
+                            commented on your picture
+                            <span class="post"></span>
+                            <span class="notifi__reddot"></span>
+                        </p>
+                        <div class="notifi__time">1 week ago</div>
+                    </div>
+                </div>
+                <img class="notifi__picture" src="./assets/images/image-chess.webp" alt="">
+            </div>
+            <div class="notifi__data hidden"></div>
+        </article>
+        <article class="notification">
+            <div class="notifi__cont">
+                <div class="notifi__text">
+                    <img class="notifi__avatar" src="./assets/images/avatar-nathan-peterson.webp" alt="">
+                    <div class="notifi__t">
+                        <p class="notifi__paragraph">
+                            <span class="notifi__name">Nathan Peterson</span>
+                            reacted to your recent post
+                            <span class="post">5 end-game strategies to increase your win rate</span>
+                            <span class="notifi__reddot"></span>
+                        </p>
+                        <div class="notifi__time">2 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notifi__data hidden"></div>
+        </article>
+        <article class="notification">
+            <div class="notifi__cont">
+                <div class="notifi__text">
+                    <img class="notifi__avatar" src="./assets/images/avatar-anna-kim.webp" alt="">
+                    <div class="notifi__t">
+                        <p class="notifi__paragraph">
+                            <span class="notifi__name">Anna Kim</span>
+                            left the group
+                            <span class="group">Chess Club</span>
+                            <span class="notifi__reddot"></span>
+                        </p>
+                        <div class="notifi__time">2 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notifi__data hidden"></div>
+        </article>
+    </main>
+  </div>
+<script src="./js/script.js"></script>
+</body>
+</html>
